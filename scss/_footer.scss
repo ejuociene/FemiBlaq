@@ -1,0 +1,44 @@
+.footer {
+	padding: 96px 43px 60px 43px;
+}
+
+.foot {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	&__logo {
+		font-size: 16px;
+		@include media_sm {
+			font-size: 18px;
+		}
+	}
+
+	&__icons {
+		display: flex;
+		gap: 35px;
+		@include media_sm {
+			gap: 20px;
+		}
+	}
+
+	&__img {
+		width: 11px;
+		&:hover {
+			filter: invert(15%) sepia(74%) saturate(3971%) hue-rotate(296deg) brightness(101%) contrast(97%);
+			cursor: pointer;
+		}
+		@include media_sm {
+			width: 25px;
+		}
+	}
+}
+
+.copyright {
+	margin-top: 34px;
+	font-size: 8px;
+	@include media_sm {
+		font-size: 13px;
+	}
+}

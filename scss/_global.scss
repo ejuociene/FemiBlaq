@@ -1,0 +1,22 @@
+@mixin header {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+@mixin media_sm {
+	@media (max-width: 834px) {
+		@content;
+	}
+}
+
+body {
+	background-color: #0a0119;
+	width: 624.76px;
+	margin: 0 auto;
+	font-family: 'Inter', sans-serif;
+	color: white;
+	@include media_sm {
+		max-width: 414px;
+	}
+}
