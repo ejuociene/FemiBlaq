@@ -6,8 +6,8 @@ Original design on Figma: [click here](https://www.figma.com/file/94SoTkTcpM6uuE
 
 My design: [click here](https://ejuociene.github.io/SASS-Website-design/)
 
-Built with: 
-- SASS,
+## Built with: 
+- SASS
 - Semantic HTML5 markup
 - Flexbox
 - Responsive layout 
